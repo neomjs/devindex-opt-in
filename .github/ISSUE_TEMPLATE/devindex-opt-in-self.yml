@@ -1,6 +1,6 @@
 name: DevIndex Opt-In (Myself)
 description: Request to add your own GitHub profile to the DevIndex.
-title: "Opt-In Request: "
+title: "[Opt-In Request] Please add my profile"
 labels: ["devindex-opt-in"]
 body:
   - type: markdown
