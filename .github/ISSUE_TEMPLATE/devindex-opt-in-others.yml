@@ -1,6 +1,6 @@
 name: DevIndex Opt-In (Nominate Others)
 description: Suggest one or more developers to be added to the DevIndex.
-title: "Opt-In Nomination: "
+title: "[Opt-In Nominations] Please add these users!"
 labels: ["devindex-opt-in"]
 body:
   - type: markdown
