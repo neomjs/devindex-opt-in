@@ -1,0 +1,19 @@
+name: DevIndex Opt-In (Myself)
+description: Request to add your own GitHub profile to the DevIndex.
+title: "Opt-In Request: "
+labels: ["devindex-opt-in"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thank you for opting into the DevIndex! By submitting this form, you request that your public GitHub metrics be indexed and displayed. Our automated pipeline will process this request shortly.
+  - type: checkboxes
+    id: confirmation
+    attributes:
+      label: Confirmation
+      description: Please acknowledge the following.
+      options:
+        - label: I understand that DevIndex will aggregate and display my public GitHub metrics (like total contributions, followers, and public profile data).
+          required: true
+        - label: I understand that I can opt out at any time via the devindex-opt-out repository.
+          required: true

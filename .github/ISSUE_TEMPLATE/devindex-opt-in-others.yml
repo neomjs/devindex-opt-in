@@ -1,0 +1,27 @@
+name: DevIndex Opt-In (Nominate Others)
+description: Suggest one or more developers to be added to the DevIndex.
+title: "Opt-In Nomination: "
+labels: ["devindex-opt-in"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Know some great developers who should be on the DevIndex? Nominate them here! 
+        Our automated pipeline will verify the usernames before adding them to our tracking queue.
+  - type: textarea
+    id: usernames
+    attributes:
+      label: GitHub Usernames
+      description: Please provide the exact GitHub usernames of the developers you are nominating (one username per line).
+      placeholder: |
+        tobiu
+    validations:
+      required: true
+  - type: checkboxes
+    id: confirmation
+    attributes:
+      label: Confirmation
+      description: Please acknowledge the following before submitting.
+      options:
+        - label: I confirm these are valid GitHub usernames.
+          required: true
